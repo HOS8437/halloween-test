@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Halloween</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #171020;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: orange;
+            font-size: 40px;
+        }
+
+        .pumpkin {
+            font-size: 150px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        p {
+            color: #ccc;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Happy Halloween!</h1>
+
+    <div class="pumpkin">🎃</div>
+
+    <p>Have a spooky night!</p>
+
+</body>
+</html>
